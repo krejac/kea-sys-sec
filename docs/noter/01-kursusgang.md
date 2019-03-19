@@ -8,7 +8,7 @@
 
 Dette er en test for at se hvordan det er at skrive her[^1]. Umiddelbart er det jo bare som at skrive tekst normalt. Men der skal selvfølgelig også kunne indsættes billeder ol.
 
-![Billede: CIS20CSC](/img/CIS20CSC.jpg)
+![Billede: CIS20CSC](../../img/CIS20CSC.jpg)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras arcu libero,
 mollis sed massa vel, *ornare viverra ex*. Mauris a ullamcorper lacus. Nullam

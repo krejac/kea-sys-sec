@@ -15,7 +15,7 @@ For full documentation visit [mkdocs.org](http://mkdocs.org).
 Installér MkDocs og pip med apt, derefter temaet [material](https://squidfunk.github.io/mkdocs-material/) med pip.
     
 ```bash
-$ sudo apt install mkdocs && python3-pip
+$ sudo apt install mkdocs python3-pip
 $ pip3 install mkdocs-material
 ```
 

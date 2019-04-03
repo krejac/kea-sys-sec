@@ -1,6 +1,6 @@
-# 01 - Intro
+# 01 - Overblik over systemsikkerhed
 
-## Noter til kapitlet: 'An Overview of Computer Security'
+## Noter til dagens tekst
 
 !!! note "Resumé af 'An Overview of Computer Security' (kap. 1)"
     IT-sikkerhed afhænger i høj grad af organisatorisk tillid ('trust'). Tillid er grundlaget for sikkerheden, som opbygges i et system. Hvis tilliden er velfunderet kan ethvert system gøres sikkert (nok). Er tilliden derimod malplaceret, kan et system ikke gøres sikkert på nogen måde.
@@ -22,7 +22,7 @@
 
 Dette er en test for at se hvordan det er at skrive her[^1]. Umiddelbart er det jo bare som at skrive tekst normalt. Men der skal selvfølgelig også kunne indsættes billeder ol.
 
-![Billede: CIS20CSC](../img/CIS20CSC.jpg)
+![Billede: CIS20CSC](../assets/images/CIS20CSC.jpg)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras arcu libero,
 mollis sed massa vel, *ornare viverra ex*. Mauris a ullamcorper lacus. Nullam

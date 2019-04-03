@@ -1,8 +1,6 @@
 # Forside
 
-## Intro
-
-Disse sider er skrevet af Kresten til Kresten i forbindelse med kurset Systemsikkerhed på KEA ([arkiv](https://web.archive.org/web/20190318201143/https://kompetence.kea.dk/kurser-fag/systemsikkerhed)) foråret 2019. Den anvendte litteratur er "Computer Security - Art and Science" af Matt Bishop ([Amazon](https://www.amazon.co.uk/Computer-Security-Science-Matt-Bishop/dp/0321712331/)).
+Disse sider er skrevet af Kresten til Kresten i forbindelse med kurset [Systemsikkerhed på KEA](https://kompetence.kea.dk/kurser-fag/systemsikkerhed) ([pdf](../assets/docs/KEA-brochure.pdf)) foråret 2019. Den anvendte litteratur er "[Computer Security - Art and Science](http://nob.cs.ucdavis.edu/book/book-aands2/index.html)" af Matt Bishop ([Amazon](https://www.amazon.co.uk/Computer-Security-Science-Matt-Bishop/dp/0321712331/)).
 
 Siderne er sat op med MkDocs; nedenstående er en ultra kort vejledning til hertil.
 
@@ -13,7 +11,7 @@ For full documentation visit [mkdocs.org](http://mkdocs.org).
 ### Hurtig installation på Ubuntu 18.10
 
 Installér MkDocs og pip med apt, derefter temaet [material](https://squidfunk.github.io/mkdocs-material/) med pip.
-    
+
 ```bash
 $ sudo apt install mkdocs python3-pip
 $ pip3 install mkdocs-material
@@ -32,9 +30,9 @@ $ pip3 install mkdocs-material
     docs/
         index.md  # Dokumentationssitets hjemmeside
         ...       # Andre markdownsider, billeder og andre filer
-	/undervisning/ 
+	/undervisning/
 	    01-kursusgang.md  # Noter til 1. kursusgang
 	    02-kursusgang.md  # Noter til 2. kursusgang
 	    ...
-	/eksamen 
+	/eksamen
 	    ...  # Der dukker nok noget op her

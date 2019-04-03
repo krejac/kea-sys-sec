@@ -1,4 +1,4 @@
-# 00 - Intro
+# 00 - Introduktion til kurset
 
 ## Noter til dagens tekst
 

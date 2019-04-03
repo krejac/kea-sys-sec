@@ -1,12 +1,10 @@
-# 8. Kursusgang - {EMNE}
+# 13 - {EMNE}
 
 ## Noter til dagens tekst
 
+!!! note "Resumé af '[indsæt overskrift]' (kap. XX)"
 
-
-
-
-*Find gerne tre spørgsmål til dages tekst, som skal søges besvaret i løbet af undervisningen. Det kan være eks. forståelsesmæssige spm. til anvendelighed af stoffet eller generel perspektivering.* 
+*Find gerne tre spørgsmål til dages tekst, som skal søges besvaret i løbet af undervisningen. Det kan være eks. forståelsesmæssige spm. til anvendelighed af stoffet eller generel perspektivering.*
 
 1. {Spørgsmål 1}
 2. {Spørgsmål 2}

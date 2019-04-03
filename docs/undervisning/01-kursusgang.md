@@ -1,4 +1,4 @@
-# 1. Kursusgang: Intro
+# 01 - Intro
 
 ## Noter til kapitlet: 'An Overview of Computer Security'
 
@@ -22,7 +22,7 @@
 
 Dette er en test for at se hvordan det er at skrive her[^1]. Umiddelbart er det jo bare som at skrive tekst normalt. Men der skal selvfølgelig også kunne indsættes billeder ol.
 
-![Billede: CIS20CSC](../../img/CIS20CSC.jpg)
+![Billede: CIS20CSC](../img/CIS20CSC.jpg)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras arcu libero,
 mollis sed massa vel, *ornare viverra ex*. Mauris a ullamcorper lacus. Nullam
@@ -36,6 +36,6 @@ eros. [Nulla aliquam](#) orci sit amet nisl posuere malesuada. Proin aliquet
 nulla velit, quis ultricies orci feugiat et. `Ut tincidunt sollicitudin`
 
 !!! Note
-    Husk at man kan lave en blok med en note midt i det hele. Det er sådan set ret blæret. Man skal bare huske syntaken. Men sådan er det jo at skrive i markdown.
+    Husk at man kan lave en blok med en note midt i det hele. Det er sådan set ret blæret. Man skal bare huske syntaksen. Men sådan er det jo at skrive i markdown.
 
 [^1]: Man kan også bruge fodnoter.

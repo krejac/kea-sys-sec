@@ -1,4 +1,4 @@
-# 1. Kursusgang:
+# 1. Kursusgang: Intro
 
 ## Noter til kapitlet: 'An Overview of Computer Security'
 

@@ -1,13 +1,16 @@
 site_name: Systemsikkerhed
 
-
-
 theme:
   name: 'material'
   palette:
-    primary: 'deep purple'
-    accent: 'blue'
+    primary: 'deep orange'
+    accent: 'orange'
   language: 'da'
+
+# Repository
+repo_name: krejac/kea-sys-sec
+repo_url: https://github.com/krejac/kea-sys-sec
+edit_uri: ""
 
 markdown_extensions:
   - admonition

@@ -1,5 +1,12 @@
 site_name: Systemsikkerhed
+site_description: 'Mine noter til Systemsikkerhed'
+site_author: 'Kresten Jacobsen'
+site_url: 'https://krejac.github.io/kea-sys-sec'
 
+# Copyright
+copyright: 'Copyleft - Kresten Jacobsen - <em>Kopier, skriv af, gør hvad du vil - og meld gerne fejl tilbage. :)</em>'
+
+# Configuration
 theme:
   name: 'material'
   palette:
@@ -10,7 +17,6 @@ theme:
 # Repository
 repo_name: krejac/kea-sys-sec
 repo_url: https://github.com/krejac/kea-sys-sec
-edit_uri: ""
 
 markdown_extensions:
   - admonition

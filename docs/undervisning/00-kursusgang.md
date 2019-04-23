@@ -2,7 +2,7 @@
 
 ## Noter til dagens tekst
 
-!!! note Ingen læsning til første kursusgang
+!!! note "Ingen læsning til første kursusgang"
     - Download og installér Kali i VirtualBox.   
     - Hent "[Kali Linux Revealed](../assets/docs/Kali-Linux-Revealed-1st-edition.pdf)"
 

@@ -1,4 +1,4 @@
-# 11 - {EMNE}
+# 11 - Forensics 2: Incident Response
 
 ## Noter til dagens tekst
 

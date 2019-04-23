@@ -1,4 +1,4 @@
-# 05 - {EMNE}
+# 05 - Hybrid Policies
 
 ## Noter til dagens tekst
 

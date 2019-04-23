@@ -1,4 +1,4 @@
-# 06 - {EMNE}
+# 06 - Malware, Intrusion, Vulnerabilities
 
 ## Noter til dagens tekst
 

@@ -1,4 +1,4 @@
-# 07 - {EMNE}
+# 07 - Basic Cryptography
 
 ## Noter til dagens tekst
 

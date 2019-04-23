@@ -1,4 +1,4 @@
-# 13 - {EMNE}
+# 13 - Benchmarking and Auditing Recap
 
 ## Noter til dagens tekst
 

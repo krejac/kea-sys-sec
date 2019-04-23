@@ -1,4 +1,4 @@
-# 14 - {EMNE}
+# 14 - Summary and prepare for the exam
 
 ## Noter til dagens tekst
 

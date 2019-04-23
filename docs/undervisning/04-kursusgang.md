@@ -1,4 +1,4 @@
-# 04 - {EMNE}
+# 04 - Integrity and Availability Policies
 
 ## Noter til dagens tekst
 

@@ -1,4 +1,4 @@
-# 03 - {EMNE}
+# 03 - Security Policies / Confidentiality Policies
 
 ## Noter til dagens tekst
 

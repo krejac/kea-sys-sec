@@ -1,4 +1,4 @@
-# 02 - {EMNE}
+# 02 - Overview of Enterprise Attacks
 
 ## Noter til dagens tekst
 

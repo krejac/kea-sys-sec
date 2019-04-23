@@ -1,4 +1,4 @@
-# 10 - {EMNE}
+# 10 - Forensics 1: Auditing and Intrusion Detection
 
 ## Noter til dagens tekst
 

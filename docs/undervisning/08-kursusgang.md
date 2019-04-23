@@ -1,4 +1,4 @@
-# 08 - {EMNE}
+# 08 - Secure Systems Design and Implementation
 
 ## Noter til dagens tekst
 

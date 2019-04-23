@@ -1,4 +1,4 @@
-# 09 - {EMNE}
+# 09 - Information Flow
 
 ## Noter til dagens tekst
 

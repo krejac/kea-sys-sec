@@ -1,4 +1,4 @@
-# 12 - {EMNE}
+# 12 - System Security in Practice
 
 ## Noter til dagens tekst
 

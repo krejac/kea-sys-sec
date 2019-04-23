@@ -12,6 +12,11 @@
 
 ## Noter fra undervisningen
 
+
+## CIS20CSC
+
+![Billede: CIS20CSC](../assets/images/CIS20CSC.jpg)
+
 Dette er en test for at se hvordan det er at skrive her[^1].
 
 !!! Note

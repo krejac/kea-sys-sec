@@ -4,9 +4,11 @@ Disse sider er skrevet af Kresten til Kresten i forbindelse med kurset [Systemsi
 
 Løbende opdateret lektionsplan kan findes på Zencurity's [GitBook-side](https://zencurity.gitbook.io/kea-it-sikkerhed/systemsikkerhed/lektionsplan).
 
+Mine noter findes i menuen under punktet "Undervisning".
+
 --------------------------------------------------------------------------------
 
-Siderne er sat op med MkDocs; nedenstående er en ultra kort vejledning til hertil. Mine noter findes i menuen under punktet "Undervisning".
+Siderne er sat op med MkDocs; nedenstående er en ultra kort vejledning til hertil.
 
 ## MkDocs local docs
 

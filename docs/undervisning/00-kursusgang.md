@@ -12,11 +12,10 @@
 2. Opgaver udover læsning?
 3. {Spørgsmål 3}
 
-## Noter fra undervisningen
+## Noter fra undervisningen ([slides](https://github.com/kramse/security-courses/blob/master/courses/system-and-software/system-security/0-Introduction-system-security.pdf))
 
-Dette er en test for at se hvordan det er at skrive her[^1].
+Der blev talt en del om pensum, forventninger og eksamen. Stort læsepensum - Henrik prøver at skære det lidt ned.
 
-!!! Note
-    Husk at man kan lave en blok med en note midt i det hele. Det er sådan set ret blæret. Man skal bare huske syntaksen. Men sådan er det jo at skrive i markdown.
+Kali og Debian installeret og screenshot afleveret i mappe.
 
-[^1]: Man kan også bruge fodnoter.  
+Nogle undervisningsdatoer vil blive rykket.

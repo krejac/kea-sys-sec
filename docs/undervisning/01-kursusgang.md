@@ -23,6 +23,10 @@
 
 ## Noter fra undervisningen ([slides](https://github.com/kramse/security-courses/blob/master/courses/system-and-software/system-security/1-overview-computer-security.pdf))
 
+!!! note  "Definition 20-6."
+    A _trusted computing base_ (TCB) consists of all protection mechanisms within a computer system – including hardware, firmware, and software – that are responsible for enforcing a security policy
+
+
 ### Kramses guldkorn
 - Man skal have "passende paranoia".
 - God sikkerhed er lille investering, højt afkast. Dårlig sikkerhed omvent.
@@ -31,6 +35,3 @@
     - Prevention - means that an attack will fail
     - Detection - determine if attack is underway, or has occured - report it
     - Recovery - stop attack, assess damage, repair damage
-
-!!! note  "Definition 20-6."
-    A _trusted computing base_ (TCB) consists of all protection mechanisms within a computer system – including hardware, firmware, and software – that are responsible for enforcing a security policy

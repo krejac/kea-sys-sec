@@ -14,7 +14,7 @@ Siderne er sat op med MkDocs; nedenstående er en ultra kort vejledning til hert
 
 For full documentation visit [mkdocs.org](http://mkdocs.org).
 
-### Hurtig installation på Ubuntu 18.10
+### Hurtig installation på Ubuntu 19.04 (og 18.10)
 
 Installér MkDocs og pip med apt, derefter temaet [material](https://squidfunk.github.io/mkdocs-material/) med pip.
 

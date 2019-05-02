@@ -31,9 +31,18 @@
 
 ## Noter fra undervisningen
 
-Dette er en test for at se hvordan det er at skrive her[^1].
+Skal have styr på (til eksamen):
 
-!!! Note
-    Husk at man kan lave en blok med en note midt i det hele. Det er sådan set ret blæret. Man skal bare huske syntaken. Men sådan er det jo at skrive i markdown.
+- DAC: [Discretionary Access Control](https://en.wikipedia.org/wiki/Discretionary_access_control) - Def. 4-13 (Læs også Wikipedia)
+- MAC: [Mandatory Access Control](https://en.wikipedia.org/wiki/Mandatory_access_control) - Def. 4-14 (Læs også Wikipedia)
+- RBAC: [Role-based Access Control](https://en.wikipedia.org/wiki/Role-based_access_control) - ikke i bog (Læs Wikipedia)
+
+Policies:
+
+- AUP: Acceptable Use Policies. Hvad må man / må man ikke på netværket.
+
+- [MANRS](https://www.manrs.org/): *Mutual Acceptable Norms for Routing Security* - Manerer for acceptabel opførsel for internetoperatører.
+
+
 
 [^1]: McLean siger at "givet nogle usikre antagelser kan man med Bell-LaPadulas Theorem bevise et usikkert systems er sikkert" [parafrasering]. Igen, det hele handler om man kan stole på sine antagelser.  

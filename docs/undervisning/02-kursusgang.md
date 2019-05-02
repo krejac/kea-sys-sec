@@ -25,7 +25,7 @@
 ## Noter fra undervisningen ([slides](https://github.com/kramse/security-courses/blob/master/courses/system-and-software/system-security/2-overview-enterprise-attacks.pdf))
 
 - Kramse: Stjæl gerne slides om CVE [4+5 i original] til eksamensbrug.
-- Farmer & Veneman (Pentests grand old men) [slide 8].
+- Farmer & Veneman (Pentests grand old men) [slide 8]. Skriver artikel om pentest i '93, frigiver SATAN i '95.
 -
 
 [^1]: *ATT&CK* står for *"Adversarial Tactics, Techniques, and Common Knowledge"*.  

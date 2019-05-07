@@ -556,25 +556,49 @@
                 <h1 id="04-integrity-and-availability-policies">04 - Integrity and Availability Policies<a class="headerlink" href="#04-integrity-and-availability-policies" title="Permanent link">&para;</a></h1>
 <h2 id="noter-til-dagens-tekst">Noter til dagens tekst<a class="headerlink" href="#noter-til-dagens-tekst" title="Permanent link">&para;</a></h2>
 <div class="admonition note">
-<p class="admonition-title">Resumé af '[indsæt overskrift]' (kap. XX)</p>
+<p class="admonition-title">Resumé af 'Integrity Policies' (Bishop kap. 6)</p>
+<p>Integritets politikker skal addressere problematikker med at sikre dataintegritet i "vildt varierede"<sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup> miljøer. De er vigtige, da det i mange typer af organisationer er mere kritisk om data er til at stole på end om de eks. bliver holdt fortrolige.</p>
+<p>Intgritet kan forsøges bevaret ved at overholde nogle principper for drift<sup id="fnref:2"><a class="footnote-ref" href="#fn:2" rel="footnote">2</a></sup></p>
+<ul>
+<li><em>Adskildelse af ansvar</em>: Flere øjne på, hvis det er muligt.  </li>
+<li><em>Adskildelse af funktion</em>: Udviklere, udvikler ikke i produktion og kan ikke selv deploye til produktion.</li>
+<li><em>Auditering (revision)</em>: Analyse af systemer med det formål at undersøge hvad der sker hvornår samt hvem der har gjort hvad.</li>
+</ul>
+<p>Modeller: <em>Biba</em>, <em>Lipner</em> og <em>Clark-Wilson</em>.</p>
+<p><em>Trust model</em>: Hvor integritets modeller behandler problematikken om at bevare et systems integritet, handler "trust" om tilliden til systemets initielle. Minder meget om formel epistemologi. <br />
+Tillid til entiteter både direkte og indirekte (transitiv / konditionel transitiv).</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Resumé af 'Availability Policies' (Bishop kap. 7)</p>
+<p>Skal forhindre forskellige typer af Denial of Service. Eks. deadlock<sup id="fnref:3"><a class="footnote-ref" href="#fn:3" rel="footnote">3</a></sup> eller (D)DoS angreb<sup id="fnref:4"><a class="footnote-ref" href="#fn:4" rel="footnote">4</a></sup>.</p>
+<p>Modellerne for beskrivelse af Availability Policies, Eks. Yu-Gligor (pp. 204 -&gt;) og Millen (pp. 210 -&gt;), har typisk to overornede politikker:</p>
+<ul>
+<li><em>User agrement</em>: Begrænsning på brug af ressourcer (eks. ingen flooding).</li>
+<li><em>Waiting Time</em>: Hvor lang tid man skal vente før der er tale om Denial of Service.</li>
+</ul>
+<p>SYN-flood er eksempel på DoS angreb og Cisco har implemeteret mitigering i noget af deres udstyr, som afventer fuldt TCP handshake før forbindelse overgives til udførende system for at undgå at ressourcer på sytemet bliver bundet op på ventende forbindelser.</p>
 </div>
 <p><em>Find gerne tre spørgsmål til dages tekst, som skal søges besvaret i løbet af undervisningen. Det kan være eks. forståelsesmæssige spm. til anvendelighed af stoffet eller generel perspektivering.</em></p>
 <ol>
-<li>{Spørgsmål 1}</li>
-<li>{Spørgsmål 2}</li>
+<li>Uddybning af User Agrement?</li>
+<li>Generelt: hvilket niveau skal politikkerne implementeres på? (msk vs. tech)</li>
 <li>{Spørgsmål 3}</li>
 </ol>
 <h2 id="noter-fra-undervisningen">Noter fra undervisningen<a class="headerlink" href="#noter-fra-undervisningen" title="Permanent link">&para;</a></h2>
-<p>Dette er en test for at se hvordan det er at skrive her<sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup>.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Husk at man kan lave en blok med en note midt i det hele. Det er sådan set ret blæret. Man skal bare huske syntaken. Men sådan er det jo at skrive i markdown.</p>
-</div>
 <div class="footnote">
 <hr />
 <ol>
 <li id="fn:1">
-<p>Man kan også bruge fodnoter.&#160;<a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+<p>Ref. "environments vary wildly", "Summary" pp. 196.&#160;<a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Ref. "principles of operation", "Goals" pp. 173.&#160;<a class="footnote-backref" href="#fnref:2" rev="footnote" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>En proces hindres adgang til ressource.&#160;<a class="footnote-backref" href="#fnref:3" rev="footnote" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>Eks. SYN-flood (syn -&gt; syn/ack -&gt; ack).&#160;<a class="footnote-backref" href="#fnref:4" rev="footnote" title="Jump back to footnote 4 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>

@@ -10,7 +10,7 @@
 2. {Spørgsmål 2}
 3. {Spørgsmål 3}
 
-## Noter fra undervisningen
+## Noter fra undervisningen ([slides](https://github.com/kramse/security-courses/blob/master/courses/system-and-software/system-security/5-hybrid-policies.pdf))
 
 Dette er en test for at se hvordan det er at skrive her[^1].
 

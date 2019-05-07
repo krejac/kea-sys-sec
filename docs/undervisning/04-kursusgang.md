@@ -26,6 +26,9 @@
 
     SYN-flood er eksempel på DoS angreb og Cisco har implemeteret mitigering i noget af deres udstyr, som afventer fuldt TCP handshake før forbindelse overgives til udførende system for at undgå at ressourcer på sytemet bliver bundet op på ventende forbindelser.
 
+Yderligere læsning: [TCP Synfloods
+an old yet current problem](http://quigon.bsws.de/papers/2017/bsdcan/)
+
 *Find gerne tre spørgsmål til dages tekst, som skal søges besvaret i løbet af undervisningen. Det kan være eks. forståelsesmæssige spm. til anvendelighed af stoffet eller generel perspektivering.*
 
 1. Uddybning af User Agrement?

@@ -32,7 +32,7 @@
 2. Generelt: hvilket niveau skal politikkerne implementeres på? (msk vs. tech)
 3. {Spørgsmål 3}
 
-## Noter fra undervisningen
+## Noter fra undervisningen ([slides](https://github.com/kramse/security-courses/blob/master/courses/system-and-software/system-security/4-integrity-availability-policies.pdf))
 
 
 [^1]: Ref. "environments vary wildly", "Summary" pp. 196.  

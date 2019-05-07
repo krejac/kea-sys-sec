@@ -29,7 +29,7 @@
 2. {Spørgsmål 2}
 3. {Spørgsmål 3}
 
-## Noter fra undervisningen
+## Noter fra undervisningen ([slides](https://github.com/kramse/security-courses/blob/master/courses/system-and-software/system-security/3-security-policies.pdf))
 
 Skal have styr på (til eksamen):
 

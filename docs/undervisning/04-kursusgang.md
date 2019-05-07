@@ -2,19 +2,40 @@
 
 ## Noter til dagens tekst
 
-!!! note "Resumé af '[indsæt overskrift]' (kap. XX)"
+!!! note "Resumé af 'Integrity Policies' (Bishop kap. 6)"
+    Integritets politikker skal addressere problematikker med at sikre dataintegritet i "vildt varierede"[^1] miljøer. De er vigtige, da det i mange typer af organisationer er mere kritisk om data er til at stole på end om de eks. bliver holdt fortrolige.
+
+    Intgritet kan forsøges bevaret ved at overholde nogle principper for drift[^2]
+
+    - *Adskildelse af ansvar*: Flere øjne på, hvis det er muligt.  
+    - *Adskildelse af funktion*: Udviklere, udvikler ikke i produktion og kan ikke selv deploye til produktion.
+    - *Auditering (revision)*: Analyse af systemer med det formål at undersøge hvad der sker hvornår samt hvem der har gjort hvad.
+
+    Modeller: *Biba*, *Lipner* og *Clark-Wilson*.
+
+    *Trust model*: Hvor integritets modeller behandler problematikken om at bevare et systems integritet, handler "trust" om tilliden til systemets initielle. Minder meget om formel epistemologi.   
+    Tillid til entiteter både direkte og indirekte (transitiv / konditionel transitiv).
+
+!!! note "Resumé af 'Availability Policies' (Bishop kap. 7)"
+    Skal forhindre forskellige typer af Denial of Service. Eks. deadlock[^3] eller (D)DoS angreb[^4].
+
+    Modellerne for beskrivelse af Availability Policies, Eks. Yu-Gligor (pp. 204 ->) og Millen (pp. 210 ->), har typisk to overornede politikker:
+
+    - *User agrement*: Begrænsning på brug af ressourcer (eks. ingen flooding).
+    - *Waiting Time*: Hvor lang tid man skal vente før der er tale om Denial of Service.
+
+    SYN-flood er eksempel på DoS angreb og Cisco har implemeteret mitigering i noget af deres udstyr, som afventer fuldt TCP handshake før forbindelse overgives til udførende system for at undgå at ressourcer på sytemet bliver bundet op på ventende forbindelser.
 
 *Find gerne tre spørgsmål til dages tekst, som skal søges besvaret i løbet af undervisningen. Det kan være eks. forståelsesmæssige spm. til anvendelighed af stoffet eller generel perspektivering.*
 
-1. {Spørgsmål 1}
-2. {Spørgsmål 2}
+1. Uddybning af User Agrement?
+2. Generelt: hvilket niveau skal politikkerne implementeres på? (msk vs. tech)
 3. {Spørgsmål 3}
 
 ## Noter fra undervisningen
 
-Dette er en test for at se hvordan det er at skrive her[^1].
 
-!!! Note
-    Husk at man kan lave en blok med en note midt i det hele. Det er sådan set ret blæret. Man skal bare huske syntaken. Men sådan er det jo at skrive i markdown.
-
-[^1]: Man kan også bruge fodnoter.  
+[^1]: Ref. "environments vary wildly", "Summary" pp. 196.  
+[^2]: Ref. "principles of operation", "Goals" pp. 173.
+[^3]: En proces hindres adgang til ressource.
+[^4]: Eks. SYN-flood (syn -> syn/ack -> ack).

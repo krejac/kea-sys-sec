@@ -362,6 +362,19 @@
     Noter fra undervisningen (slides)
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#relational-database-management-systems-rdbms" title="Relational Database Management Systems (RDBMS)" class="md-nav__link">
+    Relational Database Management Systems (RDBMS)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
       
@@ -532,6 +545,19 @@
     Noter fra undervisningen (slides)
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#relational-database-management-systems-rdbms" title="Relational Database Management Systems (RDBMS)" class="md-nav__link">
+    Relational Database Management Systems (RDBMS)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
       
@@ -560,11 +586,11 @@
 <p>Integritets politikker skal addressere problematikker med at sikre dataintegritet i "vildt varierede"<sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup> miljøer. De er vigtige, da det i mange typer af organisationer er mere kritisk om data er til at stole på end om de eks. bliver holdt fortrolige.</p>
 <p>Intgritet kan forsøges bevaret ved at overholde nogle principper for drift<sup id="fnref:2"><a class="footnote-ref" href="#fn:2" rel="footnote">2</a></sup></p>
 <ul>
-<li><em>Adskildelse af ansvar</em>: Flere øjne på, hvis det er muligt.  </li>
+<li><em><a href="https://en.wikipedia.org/wiki/Separation_of_duties">Adskildelse af ansvar</a></em>: Flere øjne på, hvis det er muligt.  </li>
 <li><em>Adskildelse af funktion</em>: Udviklere, udvikler ikke i produktion og kan ikke selv deploye til produktion.</li>
 <li><em>Auditering (revision)</em>: Analyse af systemer med det formål at undersøge hvad der sker hvornår samt hvem der har gjort hvad.</li>
 </ul>
-<p>Modeller: <em>Biba</em>, <em>Lipner</em> og <em>Clark-Wilson</em>.</p>
+<p>Modeller: <em><a href="https://en.wikipedia.org/wiki/Biba_Model">Biba</a></em>, <em>Lipner</em> (læs bog, ikke internet; der er forskel) og <em><a href="https://en.wikipedia.org/wiki/Clark%E2%80%93Wilson_model">Clark-Wilson</a></em>. Se også Matt Bishops egne <a href="http://nob.cs.ucdavis.edu/book/book-intro/slides/06.pdf">undervisningsslides</a>.</p>
 <p><em>Trust model</em>: Hvor integritets modeller behandler problematikken om at bevare et systems integritet, handler "trust" om tilliden til systemets initielle. Minder meget om formel epistemologi. <br />
 Tillid til entiteter både direkte og indirekte (transitiv / konditionel transitiv).</p>
 </div>
@@ -578,6 +604,8 @@ Tillid til entiteter både direkte og indirekte (transitiv / konditionel transit
 </ul>
 <p>SYN-flood er eksempel på DoS angreb og Cisco har implemeteret mitigering i noget af deres udstyr, som afventer fuldt TCP handshake før forbindelse overgives til udførende system for at undgå at ressourcer på sytemet bliver bundet op på ventende forbindelser.</p>
 </div>
+<p>Yderligere læsning: <a href="http://quigon.bsws.de/papers/2017/bsdcan/">TCP Synfloods
+an old yet current problem</a></p>
 <p><em>Find gerne tre spørgsmål til dages tekst, som skal søges besvaret i løbet af undervisningen. Det kan være eks. forståelsesmæssige spm. til anvendelighed af stoffet eller generel perspektivering.</em></p>
 <ol>
 <li>Uddybning af User Agrement?</li>
@@ -585,6 +613,12 @@ Tillid til entiteter både direkte og indirekte (transitiv / konditionel transit
 <li>{Spørgsmål 3}</li>
 </ol>
 <h2 id="noter-fra-undervisningen-slides">Noter fra undervisningen (<a href="https://github.com/kramse/security-courses/blob/master/courses/system-and-software/system-security/4-integrity-availability-policies.pdf">slides</a>)<a class="headerlink" href="#noter-fra-undervisningen-slides" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Jo mere der kan automatiseres af de her processer, desto bedre. I så fald bliver fejlene nemlig systematiske og kan programatikse rettelser kan føre systemet tilbage til et sikkert stade.</li>
+</ul>
+<h3 id="relational-database-management-systems-rdbms"><a href="https://en.wikipedia.org/wiki/Relational_database">Relational Database</a> Management Systems (<a href="https://en.wikipedia.org/wiki/Relational_database#RDBMS">RDBMS</a>)<a class="headerlink" href="#relational-database-management-systems-rdbms" title="Permanent link">&para;</a></h3>
+<p><img alt="RDBMS structure" src="https://upload.wikimedia.org/wikipedia/commons/5/57/RDBMS_structure.png" /></p>
+<p>Til forklaring af deadlocks brug <a href="https://en.wikipedia.org/wiki/Dining_philosophers_problem">Dining Philosophers Problem</a>. Forklar evt. også om <a href="https://en.wikipedia.org/wiki/Deadlock#Detection">deadlock detection</a> (se også <a href="https://en.wikipedia.org/wiki/Thrashing_(computer_science)">Thrashing</a> for sammenlignelig problemstilling på OS-niveau). </p>
 <div class="footnote">
 <hr />
 <ol>

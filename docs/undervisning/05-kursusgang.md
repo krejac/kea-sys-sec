@@ -25,7 +25,7 @@ Derudover skulle der også læses op på 'row hammer', som går ud på at flippe
 Lav tidslinje over Row Hammer's udvikling fra initiel paper over teoretiske exploits til javascript og til sidst NET HAMMER (netværks angreb med Row Hammer) og DRAMMER (Android rooting med Row Hammer).
 
 [Flipping Bits in Memory Without Accessing Them:
-An Experimental Study of DRAM Disturbance Errors](../assets/kim-isca14-flipping-bits.pdf)    
+An Experimental Study of DRAM Disturbance Errors](../assets/docs/kim-isca14-flipping-bits.pdf)    
 På mange moderne hukommelsesmoduler er det muligt at flippe bits i nærliggende
 
 2015 - Google Project Zero: [Exploiting the DRAM rowhammer bug to gain kernel privileges](https://googleprojectzero.blogspot.com/2015/03/exploiting-dram-rowhammer-bug-to-gain.html)

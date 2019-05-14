@@ -38,12 +38,28 @@
 2. {Spørgsmål 2}
 3. {Spørgsmål 3}
 
-## Noter fra undervisningen
+## Noter fra undervisningen ([slides](https://github.com/kramse/security-courses/blob/master/courses/system-and-software/system-security/7-basic-cryptography.pdf))
 
-Dette er en test for at se hvordan det er at skrive her[^1].
+Læs mere om kryptografi på [crypto-class.org](https://www.coursera.org/learn/crypto) <- matematik tungt.
 
-!!! Note
-    Husk at man kan lave en blok med en note midt i det hele. Det er sådan set ret blæret. Man skal bare huske syntaken. Men sådan er det jo at skrive i markdown.
+- Ofte anvendes public/private key kryptografi til at kryptere en fælles "sessionsnøgle" (bredt forstået), som kan kommunikeres til hver enkelt modtager. På denne måde kan data krypteres een gang til mange modtagere og det er kun dem, der har modtaget en sessionsnøgle, der kan læse data.
+
+- Kryptografiske principper (kramse-slide 21)
+
+
+- AES gennemgang (med mindre fejl):
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/mlzxpkdXP58" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+- RSA (Rivest-Shamir-Adleman): Opererer på store primtal. Nøglestørrelser 1.024 til 4.096 bits nøgler.
+
+- [SHA-3](https://en.wikipedia.org/wiki/SHA-3) er den nyeste Secure Hashing Algorithm fra [NIST](https://en.wikipedia.org/wiki/National_Institute_of_Standards_and_Technology).
+
+- Diffie-Hellman exchange - se kramse-slide nr 31 for DH exchange-figur med maling.
+
+- [Elliptic Curve cryptography](https://en.wikipedia.org/wiki/Elliptic-curve_cryptography); nemt at regne den ene vej, svært at regne den anden vej.
+
+- TLS: Undersøg evt. statistik for brug af forskellige versioner til slide til eksamen (hvad kører alexa top 100 f.eks.). Sårbar overfor "down grade attacks", hvis man ikke aktivt slår gamle versioner fra. 
 
 [^1]: En krypteret tekst, der er ændret i transit, vil typisk ikke (meningsfuldt) kunne dekrypteres.  
 [^2]: Bishop pp. 305.

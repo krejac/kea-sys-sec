@@ -1,4 +1,4 @@
-# 07 - Basic Cryptography
+# 07 - Malware, Intrusion, Vulnerabilities
 
 ## Noter til dagens tekst
 

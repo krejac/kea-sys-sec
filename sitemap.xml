@@ -1,83 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-     <loc>https://krejac.github.io/kea-sys-sec/</loc>
-     <lastmod>2019-05-09</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
      <loc>https://krejac.github.io/kea-sys-sec/undervisning/00-kursusgang/</loc>
-     <lastmod>2019-05-09</lastmod>
+     <lastmod>2019-05-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://krejac.github.io/kea-sys-sec/undervisning/01-kursusgang/</loc>
-     <lastmod>2019-05-09</lastmod>
+     <lastmod>2019-05-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://krejac.github.io/kea-sys-sec/undervisning/02-kursusgang/</loc>
-     <lastmod>2019-05-09</lastmod>
+     <lastmod>2019-05-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://krejac.github.io/kea-sys-sec/undervisning/03-kursusgang/</loc>
-     <lastmod>2019-05-09</lastmod>
+     <lastmod>2019-05-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://krejac.github.io/kea-sys-sec/undervisning/04-kursusgang/</loc>
-     <lastmod>2019-05-09</lastmod>
+     <lastmod>2019-05-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://krejac.github.io/kea-sys-sec/undervisning/05-kursusgang/</loc>
-     <lastmod>2019-05-09</lastmod>
+     <lastmod>2019-05-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://krejac.github.io/kea-sys-sec/undervisning/06-kursusgang/</loc>
-     <lastmod>2019-05-09</lastmod>
+     <lastmod>2019-05-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://krejac.github.io/kea-sys-sec/undervisning/07-kursusgang/</loc>
-     <lastmod>2019-05-09</lastmod>
+     <lastmod>2019-05-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://krejac.github.io/kea-sys-sec/undervisning/08-kursusgang/</loc>
-     <lastmod>2019-05-09</lastmod>
+     <lastmod>2019-05-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://krejac.github.io/kea-sys-sec/undervisning/09-kursusgang/</loc>
-     <lastmod>2019-05-09</lastmod>
+     <lastmod>2019-05-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://krejac.github.io/kea-sys-sec/undervisning/10-kursusgang/</loc>
-     <lastmod>2019-05-09</lastmod>
+     <lastmod>2019-05-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://krejac.github.io/kea-sys-sec/undervisning/11-kursusgang/</loc>
-     <lastmod>2019-05-09</lastmod>
+     <lastmod>2019-05-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://krejac.github.io/kea-sys-sec/undervisning/12-kursusgang/</loc>
-     <lastmod>2019-05-09</lastmod>
+     <lastmod>2019-05-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://krejac.github.io/kea-sys-sec/undervisning/13-kursusgang/</loc>
-     <lastmod>2019-05-09</lastmod>
+     <lastmod>2019-05-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://krejac.github.io/kea-sys-sec/undervisning/14-kursusgang/</loc>
-     <lastmod>2019-05-09</lastmod>
+     <lastmod>2019-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://krejac.github.io/kea-sys-sec/eksamen/emner/</loc>
+     <lastmod>2019-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://krejac.github.io/kea-sys-sec/eksamen/ideer/</loc>
+     <lastmod>2019-05-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>

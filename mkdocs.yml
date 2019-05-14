@@ -6,6 +6,28 @@ site_url: 'https://krejac.github.io/kea-sys-sec'
 # Copyright
 copyright: 'Copyleft - Kresten Jacobsen - <em>Kopier, skriv af, gør hvad du vil - og meld gerne fejl tilbage. :)</em>'
 
+# Navigation / menu
+nav:
+  - Undervisning:
+    - undervisning/00-kursusgang.md
+    - undervisning/01-kursusgang.md
+    - undervisning/02-kursusgang.md
+    - undervisning/03-kursusgang.md
+    - undervisning/04-kursusgang.md
+    - undervisning/05-kursusgang.md
+    - undervisning/06-kursusgang.md
+    - undervisning/07-kursusgang.md
+    - undervisning/08-kursusgang.md
+    - undervisning/09-kursusgang.md
+    - undervisning/10-kursusgang.md
+    - undervisning/11-kursusgang.md
+    - undervisning/12-kursusgang.md
+    - undervisning/13-kursusgang.md
+    - undervisning/14-kursusgang.md
+  - Eksamen:
+    - eksamen/emner.md
+    - eksamen/ideer.md
+
 # Configuration
 theme:
   name: 'material'

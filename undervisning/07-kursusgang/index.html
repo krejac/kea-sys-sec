@@ -382,9 +382,29 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#noter-fra-undervisningen" title="Noter fra undervisningen" class="md-nav__link">
-    Noter fra undervisningen
+  <a href="#noter-fra-undervisningen-slides" title="Noter fra undervisningen (slides)" class="md-nav__link">
+    Noter fra undervisningen (slides)
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#kapitel-23-malware" title="Kapitel 23 - Malware" class="md-nav__link">
+    Kapitel 23 - Malware
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kapitel-24-vulnerability-analysis" title="Kapitel 24 - Vulnerability Analysis" class="md-nav__link">
+    Kapitel 24 - Vulnerability Analysis
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -564,9 +584,29 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#noter-fra-undervisningen" title="Noter fra undervisningen" class="md-nav__link">
-    Noter fra undervisningen
+  <a href="#noter-fra-undervisningen-slides" title="Noter fra undervisningen (slides)" class="md-nav__link">
+    Noter fra undervisningen (slides)
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#kapitel-23-malware" title="Kapitel 23 - Malware" class="md-nav__link">
+    Kapitel 23 - Malware
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kapitel-24-vulnerability-analysis" title="Kapitel 24 - Vulnerability Analysis" class="md-nav__link">
+    Kapitel 24 - Vulnerability Analysis
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -592,7 +632,35 @@
                 <h1 id="07-malware-intrusion-vulnerabilities">07 - Malware, Intrusion, Vulnerabilities<a class="headerlink" href="#07-malware-intrusion-vulnerabilities" title="Permanent link">&para;</a></h1>
 <h2 id="noter-til-dagens-tekst">Noter til dagens tekst<a class="headerlink" href="#noter-til-dagens-tekst" title="Permanent link">&para;</a></h2>
 <div class="admonition note">
-<p class="admonition-title">Resumé af '[indsæt overskrift]' (kap. XX)</p>
+<p class="admonition-title">Resumé af 'Malware' (kap. 23)</p>
+<p><strong>Def. 23-1.</strong> <em>Malicious logic</em>, more commonly called <em>malware</em>, is a set of instructions that cause a site's security policy to be violated. <br />
+<strong>Def. 23-2.</strong> A <em>Trojan horse</em> is a program with an overt (documented or known) purpose and a covert (undocumented or unexpected) purpose. <br />
+A <strong>rootkit</strong> is a pernicious Trojan horse. It hides itself on a system so it can carry out its actions without detection. (Kan være uhyggeligt svære at komme af med.) <br />
+<strong>Def. 23-3.</strong> A <em>propagating Trojan horse</em> (also called a <em>replicating Trojan horse</em>) is a Trojan horse that creates a copy of itself. <br />
+<strong>Def. 23-4.</strong> A <em>computer virus</em> is a program that inserts (a possibly transformed version of) itself into one or more files and then performs some (possibly null) action. <br />
+  - Virusser opererer i to faser: <br />
+    1. Insertion phase; hvor virussen indsætter sig selv i programkode. <br />
+    2. Execution phase; hvor virussen udfører en handling. <br />
+<strong>Def. 23-12.</strong> A <em>Polymorphic</em> virus is a virus that changes the form of its decryption routine each time it inserts itself into another program.
+<strong>Def. 23-14.</strong> Worm
+<strong>Def. 23-15.</strong> Bot
+<strong>Def. 23-17.</strong> Logic bomb
+<strong>Def. 23-18.</strong> Adware
+<strong>Def. 23-20.</strong> Spyware
+<strong>Def. 23-21.</strong> Ransomware
+<strong>Phishing</strong> og <strong>Spearphishing</strong></p>
+<p><strong>Theorem 23.2</strong> It is undecidable whether an arbitrary program contains a malicious logic.</p>
+<p><strong>Defence</strong>
+Behavioral signatures, static analysis, behavioral analysis  <br />
+Sandboxing (containment)</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Resumé af 'Vulnerability Analysis' (kap. 24)</p>
+<p>Ikke læst; noter fra undervisningen: <br />
+Blackbox, greybox, whitebox <br />
+Rules of engangement (kramse-slide 27). <br />
+<a href="https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures">CVE - Common Vulnerabilities and Exposures</a>
+<a href="https://en.wikipedia.org/wiki/Common_Weakness_Enumeration">CWE - Common Weaknesses and Exposures</a></p>
 </div>
 <p><em>Find gerne tre spørgsmål til dages tekst, som skal søges besvaret i løbet af undervisningen. Det kan være eks. forståelsesmæssige spm. til anvendelighed af stoffet eller generel perspektivering.</em></p>
 <ol>
@@ -600,20 +668,23 @@
 <li>{Spørgsmål 2}</li>
 <li>{Spørgsmål 3}</li>
 </ol>
-<h2 id="noter-fra-undervisningen">Noter fra undervisningen<a class="headerlink" href="#noter-fra-undervisningen" title="Permanent link">&para;</a></h2>
-<p>Dette er en test for at se hvordan det er at skrive her<sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup>.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Husk at man kan lave en blok med en note midt i det hele. Det er sådan set ret blæret. Man skal bare huske syntaken. Men sådan er det jo at skrive i markdown.</p>
-</div>
-<div class="footnote">
-<hr />
-<ol>
-<li id="fn:1">
-<p>Man kan også bruge fodnoter.&#160;<a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
-</ol>
-</div>
+<h2 id="noter-fra-undervisningen-slides">Noter fra undervisningen (<a href="https://github.com/kramse/security-courses/blob/master/courses/system-and-software/system-security/7-malware-intrusion-vulnerabilities.pdf">slides</a>)<a class="headerlink" href="#noter-fra-undervisningen-slides" title="Permanent link">&para;</a></h2>
+<h3 id="kapitel-23-malware">Kapitel 23 - Malware<a class="headerlink" href="#kapitel-23-malware" title="Permanent link">&para;</a></h3>
+<p><strong>Program integrity checker</strong> <br />
+- Advanced Intrusion Detection Environment (<a href="https://en.wikipedia.org/wiki/Advanced_Intrusion_Detection_Environment">AIDE</a>)</p>
+<p><strong>Eksempler på Malware</strong> <br />
+- <a href="https://en.wikipedia.org/wiki/Morris_worm">Morris Worm</a> (kramse-slide s. 10) <br />
+- <a href="https://en.wikipedia.org/wiki/Stuxnet">Stuxnet</a> (kramse-slide s. 11)   </p>
+<p><img alt="Morris worm disk" src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Morris_Worm.jpg" /></p>
+<p><strong>Værktøjer</strong> <br />
+<a href="https://github.com/stamparm/MalTrail">Maltrail</a> is a malicious traffic detection system. <br />
+OWASP <a href="https://github.com/bkimminich/juice-shop">Juice Shop</a>: Probably the most modern and sophisticated insecure web application</p>
+<h3 id="kapitel-24-vulnerability-analysis">Kapitel 24 - Vulnerability Analysis<a class="headerlink" href="#kapitel-24-vulnerability-analysis" title="Permanent link">&para;</a></h3>
+<p><strong>Penetration testing</strong>
+<a href="https://www.owasp.org/index.php/Penetration_testing_methodologies">OWASP Penetration testing methodologies</a></p>
+<p>Kig kramse-slides igennem.</p>
+<p><strong>Buffers and stacks</strong>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/1S0aBV-Waeo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></p>
                 
                   
                 

@@ -65,3 +65,5 @@ Kig kramse-slides igennem.
 
 **Buffers and stacks**
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/1S0aBV-Waeo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+**Return oriented programming**

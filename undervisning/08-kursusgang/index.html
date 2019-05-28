@@ -391,11 +391,24 @@
     Noter til dagens tekst
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#artikler" title="Artikler" class="md-nav__link">
+    Artikler
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
-  <a href="#noter-fra-undervisningen" title="Noter fra undervisningen" class="md-nav__link">
-    Noter fra undervisningen
+  <a href="#noter-fra-undervisningen-slides" title="Noter fra undervisningen (slides)" class="md-nav__link">
+    Noter fra undervisningen (slides)
   </a>
   
 </li>
@@ -561,11 +574,24 @@
     Noter til dagens tekst
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#artikler" title="Artikler" class="md-nav__link">
+    Artikler
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
-  <a href="#noter-fra-undervisningen" title="Noter fra undervisningen" class="md-nav__link">
-    Noter fra undervisningen
+  <a href="#noter-fra-undervisningen-slides" title="Noter fra undervisningen (slides)" class="md-nav__link">
+    Noter fra undervisningen (slides)
   </a>
   
 </li>
@@ -592,19 +618,83 @@
                 <h1 id="08-secure-systems-design-and-implementation">08 - Secure Systems Design and Implementation<a class="headerlink" href="#08-secure-systems-design-and-implementation" title="Permanent link">&para;</a></h1>
 <h2 id="noter-til-dagens-tekst">Noter til dagens tekst<a class="headerlink" href="#noter-til-dagens-tekst" title="Permanent link">&para;</a></h2>
 <div class="admonition note">
-<p class="admonition-title">Resumé af '[indsæt overskrift]' (kap. XX)</p>
+<p class="admonition-title">Resumé af 'Secure Design' (kap. 14)</p>
+<p><em>Gennemgang af ni principper for sikre systemer.</em></p>
+<p><strong>Principle of Least Privilege</strong> (def. 14-1): <br />
+Et subjekt skal kun have de privilegier, der er nødvendige for at gennemføre dets opgave. <br />
+<strong>Principle of Least Authority</strong> (def. 14-2): &lt;- <em>Bør ikke uddybes til eksamen, da forskellen til den forrige er akademisk.</em><br />
+Et subjekt skal kun have den autoritet, der er nødvendig for at gennemføre dets opgave. <br />
+<strong>Principle of Fail-Safe Defaults</strong> (def. 14-3):  <br />
+Medmindre et subjekt er givet <em>eksplicit</em> adgang til et objekt, skal det formenes adgang til objektet. <br />
+<strong>Principle of Economy of Mechanism</strong> (def. 14-4): <br />
+Sikkerhedsmekanismer skal være så simple som muligt. <br />
+<strong>Principle of Complete Mediation</strong> (def. 14-5): <br />
+<em>Al</em> adgang til objekter skal tjekkes for at sikre subjektet har lov til at tilgå det. <br />
+<strong>Principle of Open Design</strong> (def. 14-6): <br />
+Sikkerheden i sikkerhedsmekanismerne, må aldrig hvile på hemmeligholdelse af disse (et eksempel som forbryder sig mod dette princip er bagdøre til kryptering). <br />
+<strong>Principle of Seperation of Privilege</strong> (def. 14-7): <br />
+Der må ikke tildeles adgang (til et objekt i systemet) baseret på en enkelt betingelse. <br />
+<strong>Principle of Least Common Mechanism</strong> (def. 14-8): <br />
+Mekanismer til brug af systemet, må ikke deles bør ikke deles med andre (eks. flere systemer på samme maskine).<br />
+<strong>Principle of Least Astonishment</strong> (def. 14-9): <br />
+Brugere skal forstå <em>hvordan</em> en sikkerhedsmekanisme forbedrer sikkerheden <em>og</em> være simpel.   </p>
 </div>
+<div class="admonition note">
+<p class="admonition-title">Resumé af 'Representing Identity' (kap. 15)</p>
+<p><em>Identiteter er basis for al adgangskontrol (access control mechanisms)</em></p>
+<p><strong>What Is Identity</strong> <br />
+En identitet repræsenterer en <em>unik enhed</em>. <br />
+<strong>Files and Objects</strong> <br />
+Lokale systemer identificerer objekter ved navn. Distribuerede systemer (f.eks. internettet) identificerer objeker ved navn <em>indeholdene</em> placering (f.eks. en url, som består af protokol, server, navn). <br />
+<strong>Users</strong> <br />
+En bruger er en identitet bundet op på en specifik <em>unik enhed</em> (f.eks. en person eller gruppe). En unik enhed kan have flere brugere (eks. til forskellige brugssituationer). <br />
+<strong>Groups and Roles</strong> <br />
+En <em>unik enhed</em> kan være sammensat af flere <em>unikke enheder</em> (eks. en gruppe af brugere). Medlemmer i en <em>unik enhed</em> skal kunne skelnes fra hinanden. <br />
+<strong>Naming and Certificates</strong>  <br />
+Certifikater binder kryptografiske nøgler til <em>unikke enheder</em>.   <br />
+<strong>Identity on the Web</strong>  <br />
+[UDFYLDES TIL UNDERVISNING]   <br />
+<strong>Anonymity on the Web</strong> <br />
+[UDFYLDES TIL UNDERVISNING]  <br />
+<strong>DNSSEC</strong>
+Sikrer integritet; validerbar helt op til roden af dns.</p>
+<p>Forståelse for hvordan en <em>identitet</em> er bundet til den <em>unikke enhed</em> giver indsigt i troværdigheden af den pågældende <em>unikke enhed</em>.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Resumé af 'Access Control Mechanisms' (kap. 16)</p>
+<p>Adgangskontrolmekanismer (access control mechanisms) implementerer kontrol på subjekter og objekter i systemer. Typisk er det ejeren af data, der definerer hvem der må få adgang til data. (<em>Access Control Lists</em>, <em>Capability Lists</em>, <em>Lock and Keys</em>.)</p>
+<p>Med nogle adgangskontrolmekanismer (<em>ring-based</em>, eks. cpu'er) er det systemet, der definerer hvem der har adgang til hvad. I disse tilfælde skal reglerne dog være meget velovervejede.</p>
+<p><em>Propagated Access Control Lists</em>?</p>
+</div>
+<h3 id="artikler">Artikler<a class="headerlink" href="#artikler" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p><a href="https://people.eecs.berkeley.edu/~daw/papers/setuid-usenix02.pdf">Setuid Demystified</a> (Se evt. nedenstående om setuid, setgid og sticky bits.)
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/rXZJLqbZ03Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>   </p>
+</li>
+<li>
+<p><a href="http://cr.yp.to/qmail/qmailsec-20071101.pdf">Some thoughts on security after ten years of qmail 1.0</a> <br />
+<strong>How to keep software safe:</strong> <br />
+Answer 1: <em>eliminating bugs − &gt; Enforcing explicit data flow, Simplifying integer semantics, Avoiding parsing.</em> <br />
+Answer 2: <em>eliminating code − &gt; Identifying common functions, Reusing network tools, Reusing access controls, Reusing the filesystem.</em> <br />
+Answer 3: <em>eliminating trusted code − &gt; Accurately measuring the TCB, Isolating single-source transformations, Delaying multiple-source merges, Do we really need a small TCB?</em>   </p>
+</li>
+<li>
+<p><a href="http://css.csail.mit.edu/6.858/2014/readings/wedge.pdf">Wedge: Splitting Applications into Reduced-Privilege Compartments</a> <br />
+Wedge </p>
+</li>
+</ul>
 <p><em>Find gerne tre spørgsmål til dages tekst, som skal søges besvaret i løbet af undervisningen. Det kan være eks. forståelsesmæssige spm. til anvendelighed af stoffet eller generel perspektivering.</em></p>
 <ol>
 <li>{Spørgsmål 1}</li>
 <li>{Spørgsmål 2}</li>
 <li>{Spørgsmål 3}</li>
 </ol>
-<h2 id="noter-fra-undervisningen">Noter fra undervisningen<a class="headerlink" href="#noter-fra-undervisningen" title="Permanent link">&para;</a></h2>
+<h2 id="noter-fra-undervisningen-slides">Noter fra undervisningen (<a href="https://github.com/kramse/security-courses/blob/master/courses/system-and-software/system-security/8-secure-systems-design.pdf">slides</a>)<a class="headerlink" href="#noter-fra-undervisningen-slides" title="Permanent link">&para;</a></h2>
 <p>Dette er en test for at se hvordan det er at skrive her<sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup>.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Husk at man kan lave en blok med en note midt i det hele. Det er sådan set ret blæret. Man skal bare huske syntaken. Men sådan er det jo at skrive i markdown.</p>
+<p>Husk at man kan lave en blok med en note midt i det hele. Det er sådan set ret blæret. Man skal bare huske syntaksen. Men sådan er det jo at skrive i markdown.</p>
 </div>
 <div class="footnote">
 <hr />

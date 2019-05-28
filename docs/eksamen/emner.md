@@ -12,7 +12,7 @@
 
 6. Basic Cryptography Read Bishop chapter 10, chapter 11 until and including 11.3, chapter 12 until 12.4, chapter 13 until 13.5
 
-7. Malware, Intrusion, Vulnerabilities Bishop chapters 23 and 24 - ca 105 pages Smashing The Stack For Fun And Profit
+7. Malware, Intrusion, Vulnerabilities Bishop chapters 23 and 24 - ca 105 pages + Smashing The Stack For Fun And Profit
 
 8. Secure Systems Design and Implementation Bishop chapters 14,15,16
 

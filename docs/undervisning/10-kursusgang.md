@@ -2,7 +2,16 @@
 
 ## Noter til dagens tekst
 
-!!! note "Resumé af '[indsæt overskrift]' (kap. XX)"
+!!! note "Resumé af '[indsæt overskrift]' (kap. 25)"
+    Auditing and logging: Def. 25-1 & 2 (tror jeg)   
+    Komponenter:   
+      - Logger   
+      - Analyzer   
+      - Notifier    
+
+!!! note "Resumé af '[indsæt overskrift]' (kap. 26)"
+    Intrusion detection: Def. 26-1:     
+    HIDS + NIDS (slide 18)
 
 *Find gerne tre spørgsmål til dages tekst, som skal søges besvaret i løbet af undervisningen. Det kan være eks. forståelsesmæssige spm. til anvendelighed af stoffet eller generel perspektivering.*
 
@@ -12,9 +21,10 @@
 
 ## Noter fra undervisningen
 
-Dette er en test for at se hvordan det er at skrive her[^1].
+###Kramse-guldkorn
+- Via Tina Bird (T-Bird): Kig på top 10 events, men også bottom 10 events. Husk at kigge på det der sker sjældent (eksemplet er en strømforsyning, der dør og sender een besked, men som så i sagens natur ikke kan sende flere beskeder).
 
-!!! Note
-    Husk at man kan lave en blok med en note midt i det hele. Det er sådan set ret blæret. Man skal bare huske syntaken. Men sådan er det jo at skrive i markdown.
+- Se ENISA docs i slide 44.
+
 
 [^1]: Man kan også bruge fodnoter.  

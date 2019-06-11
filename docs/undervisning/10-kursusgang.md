@@ -13,11 +13,6 @@
     Intrusion detection: Def. 26-1:     
     HIDS + NIDS (slide 18)
 
-*Find gerne tre spørgsmål til dages tekst, som skal søges besvaret i løbet af undervisningen. Det kan være eks. forståelsesmæssige spm. til anvendelighed af stoffet eller generel perspektivering.*
-
-1. {Spørgsmål 1}
-2. {Spørgsmål 2}
-3. {Spørgsmål 3}
 
 ## Noter fra undervisningen
 

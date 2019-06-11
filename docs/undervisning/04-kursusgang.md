@@ -29,12 +29,6 @@
 Yderligere læsning: [TCP Synfloods
 an old yet current problem](http://quigon.bsws.de/papers/2017/bsdcan/)
 
-*Find gerne tre spørgsmål til dages tekst, som skal søges besvaret i løbet af undervisningen. Det kan være eks. forståelsesmæssige spm. til anvendelighed af stoffet eller generel perspektivering.*
-
-1. Uddybning af User Agrement?
-2. Generelt: hvilket niveau skal politikkerne implementeres på? (msk vs. tech)
-3. {Spørgsmål 3}
-
 ## Noter fra undervisningen ([slides](https://github.com/kramse/security-courses/blob/master/courses/system-and-software/system-security/4-integrity-availability-policies.pdf))
 
 - Jo mere der kan automatiseres af de her processer, desto bedre. I så fald bliver fejlene nemlig systematiske og kan programatikse rettelser kan føre systemet tilbage til et sikkert stade.
@@ -43,7 +37,7 @@ an old yet current problem](http://quigon.bsws.de/papers/2017/bsdcan/)
 
 ![RDBMS structure](https://upload.wikimedia.org/wikipedia/commons/5/57/RDBMS_structure.png)
 
-Til forklaring af deadlocks brug [Dining Philosophers Problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem). Forklar evt. også om [deadlock detection](https://en.wikipedia.org/wiki/Deadlock#Detection) (se også [Thrashing](https://en.wikipedia.org/wiki/Thrashing_(computer_science)) for sammenlignelig problemstilling på OS-niveau). 
+Til forklaring af deadlocks brug [Dining Philosophers Problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem). Forklar evt. også om [deadlock detection](https://en.wikipedia.org/wiki/Deadlock#Detection) (se også [Thrashing](https://en.wikipedia.org/wiki/Thrashing_(computer_science)) for sammenlignelig problemstilling på OS-niveau).
 
 [^1]: Ref. "environments vary wildly", "Summary" pp. 196.  
 [^2]: Ref. "principles of operation", "Goals" pp. 173.

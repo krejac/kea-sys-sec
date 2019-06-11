@@ -14,11 +14,6 @@
 
 Derudover skulle der også læses op på 'row hammer', som går ud på at flippe bits uden at tilgå dem i moderne ram, hvor de enkelte bits aflader ind i naborækkerne.
 
-*Find gerne tre spørgsmål til dages tekst, som skal søges besvaret i løbet af undervisningen. Det kan være eks. forståelsesmæssige spm. til anvendelighed af stoffet eller generel perspektivering.*
-
-1. {Spørgsmål 1}
-2. {Spørgsmål 2}
-3. {Spørgsmål 3}
 
 ## Noter fra undervisningen ([slides](https://github.com/kramse/security-courses/blob/master/courses/system-and-software/system-security/5-hybrid-policies.pdf))
 

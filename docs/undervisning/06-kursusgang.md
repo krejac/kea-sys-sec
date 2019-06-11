@@ -32,11 +32,6 @@
       - Digitale signaturer med symmetrisk kryptering, kræver betroet 3. part, som holder nøgler fra begge parter, der dekrypterer med afsenders nøgle (samme som har krypteret) krypterer på ny med modtagers nøgle og videresender. Herefter kan de to tekster i tvilvstilfælde sammenlignes og skal så være ens.
       - Digitale signaturer med asymmetrisk kryptering, signerer blot med private key og så kan alle verificere ved at dekryptere med public key.
 
-*Find gerne tre spørgsmål til dages tekst, som skal søges besvaret i løbet af undervisningen. Det kan være eks. forståelsesmæssige spm. til anvendelighed af stoffet eller generel perspektivering.*
-
-1. {Spørgsmål 1}
-2. {Spørgsmål 2}
-3. {Spørgsmål 3}
 
 ## Noter fra undervisningen ([slides](https://github.com/kramse/security-courses/blob/master/courses/system-and-software/system-security/7-basic-cryptography.pdf))
 
@@ -59,7 +54,7 @@ Læs mere om kryptografi på [crypto-class.org](https://www.coursera.org/learn/c
 
 - [Elliptic Curve cryptography](https://en.wikipedia.org/wiki/Elliptic-curve_cryptography); nemt at regne den ene vej, svært at regne den anden vej.
 
-- TLS: Undersøg evt. statistik for brug af forskellige versioner til slide til eksamen (hvad kører alexa top 100 f.eks.). Sårbar overfor "down grade attacks", hvis man ikke aktivt slår gamle versioner fra. 
+- TLS: Undersøg evt. statistik for brug af forskellige versioner til slide til eksamen (hvad kører alexa top 100 f.eks.). Sårbar overfor "down grade attacks", hvis man ikke aktivt slår gamle versioner fra.
 
 [^1]: En krypteret tekst, der er ændret i transit, vil typisk ikke (meningsfuldt) kunne dekrypteres.  
 [^2]: Bishop pp. 305.

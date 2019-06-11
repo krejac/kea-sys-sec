@@ -23,11 +23,6 @@
 - [Campus Operations Best Current Practice](https://nsrc.org/workshops/2018/tenet-nsrc-cndo/networking/cndo/en/presentations/Campus_Operations_BCP.pdf) [[lokal kopi](../assets/docs/Campus_Operations_BCP.pdf)]
 - [Mutually Agreed Norms for Routing Security (MANRS)](https://www.manrs.org/wp-content/uploads/2018/09/MANRS_PDF_Sep2016.pdf) [[lokal kopi](../assets/docs/MANRS_PDF_Sep2016.pdf)]
 
-*Find gerne tre spørgsmål til dages tekst, som skal søges besvaret i løbet af undervisningen. Det kan være eks. forståelsesmæssige spm. til anvendelighed af stoffet eller generel perspektivering.*
-
-1. {Spørgsmål 1}
-2. {Spørgsmål 2}
-3. {Spørgsmål 3}
 
 ## Noter fra undervisningen ([slides](https://github.com/kramse/security-courses/blob/master/courses/system-and-software/system-security/3-security-policies.pdf))
 

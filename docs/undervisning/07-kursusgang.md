@@ -33,11 +33,6 @@
     [CVE - Common Vulnerabilities and Exposures](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)
     [CWE - Common Weaknesses and Exposures](https://en.wikipedia.org/wiki/Common_Weakness_Enumeration)
 
-*Find gerne tre spørgsmål til dages tekst, som skal søges besvaret i løbet af undervisningen. Det kan være eks. forståelsesmæssige spm. til anvendelighed af stoffet eller generel perspektivering.*
-
-1. {Spørgsmål 1}
-2. {Spørgsmål 2}
-3. {Spørgsmål 3}
 
 ## Noter fra undervisningen ([slides](https://github.com/kramse/security-courses/blob/master/courses/system-and-software/system-security/7-malware-intrusion-vulnerabilities.pdf))
 

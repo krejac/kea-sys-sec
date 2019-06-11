@@ -16,11 +16,6 @@
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/EsvUUCrbhIE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
-*Find gerne tre spørgsmål til dages tekst, som skal søges besvaret i løbet af undervisningen. Det kan være eks. forståelsesmæssige spm. til anvendelighed af stoffet eller generel perspektivering.*
-
-1. Hvor finder jeg mere? Evt. videomateriale.
-2. Hvordan har du set dette blive brugt?
-3. Hvordan kunne jeg selv bruge det i min org.?
 
 ## Noter fra undervisningen ([slides](https://github.com/kramse/security-courses/blob/master/courses/system-and-software/system-security/2-overview-enterprise-attacks.pdf))
 

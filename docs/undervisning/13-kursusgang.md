@@ -48,5 +48,19 @@
 - NSA security configuration guides http://www.nsa.gov/ia/guidance/security_configuration_guides/index.shtml   
 - Information Systems Audit and Control Association (ISACA) http://www.isaca.org/Knowledge-Center/Risk-IT-IT-Risk-Management/Pages/default.aspx   
 
-Til eksamen: kopier mere eller mindre slide 18 og map kontrollerne op i mod?
+Til eksamen: kopier mere eller mindre slide 18 og map kontrollerne op i mod det der står?
 - Tag enkelte eksempler ud og gå i dybden med det
+
+
+---
+
+PCI-DSS:
+- Pil udvalgte requirements ud fra v. 3.2.1 og gennemgå dem
+- Kopier slide 45 og fremhæv kortere passager.
+
+---
+PCI Scope
+1. Netværk afskær m/ firewall
+2. Server / virtualisering
+3. Opfølgning på aktivitet på server / net (hids / nids / logging / antivirus)
+4. Hvem har adgang 

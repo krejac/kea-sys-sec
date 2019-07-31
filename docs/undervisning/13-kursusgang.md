@@ -5,16 +5,62 @@
 !!! note "Resumé af '[indsæt overskrift]' (kap. XX)"
 
 
-## Noter fra undervisningen
+## Noter fra undervisningen ([slides](https://github.com/kramse/security-courses/blob/master/courses/system-and-software/system-security/13-benchmarking-auditing.pdf))
 
 
 ## CIS20CSC
 
 ![Billede: CIS20CSC](../assets/images/CIS20CSC.jpg)
 
-Dette er en test for at se hvordan det er at skrive her[^1].
+---
 
-!!! Note
-    Husk at man kan lave en blok med en note midt i det hele. Det er sådan set ret blæret. Man skal bare huske syntaken. Men sådan er det jo at skrive i markdown.
+# Building Secure Infrastructures
+## A real-life setup of an infrastructure from scratch can be daunting!
+**You need:**   
 
-[^1]: Man kan også bruge fodnoter.  
+- Policies   
+- Procedures   
+- Incident Response   
+
+---
+
+**Running systems which require:**   
+
+- Configurations   
+- Settings   
+- Supporting infrastructure – networks   
+- Supporting infrastructure – logging, dashboarding, monitoring   
+
+*Building something secure is hard work!*   
+
+---
+
+# Security Controls and Frameworks
+## Multiple exist
+- CIS controls Center for Internet Security (CIS) https://www.cisecurity.org   
+- PCI Best Practices for Maintaining PCI DSS Compliance v2.0 Jan 2019   
+
+- NIST Cybersecurity Framework (CSF)   
+  Framework for Improving Critical Infrastructure Cybersecurity   
+  - https://www.nist.gov/cyberframework   
+  - http://csrc.nist.gov/publications/PubsSPs.html   
+- National Security Agency (NSA) http://www.nsa.gov/research/publications/index.shtml   
+- NSA security configuration guides http://www.nsa.gov/ia/guidance/security_configuration_guides/index.shtml   
+- Information Systems Audit and Control Association (ISACA) http://www.isaca.org/Knowledge-Center/Risk-IT-IT-Risk-Management/Pages/default.aspx   
+
+Til eksamen: kopier mere eller mindre slide 18 og map kontrollerne op i mod det der står?
+- Tag enkelte eksempler ud og gå i dybden med det
+
+
+---
+
+PCI-DSS:
+- Pil udvalgte requirements ud fra v. 3.2.1 og gennemgå dem
+- Kopier slide 45 og fremhæv kortere passager.
+
+---
+PCI Scope
+1. Netværk afskær m/ firewall
+2. Server / virtualisering
+3. Opfølgning på aktivitet på server / net (hids / nids / logging / antivirus)
+4. Hvem har adgang 
